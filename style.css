@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, "sans-serif";
+    list-style-type: none;
+    text-decoration: none;
+    color: #171321;
+}
+body {
+    width: auto;
+    height: 2000px;
+    background: rgb(214,155,181);
+    background-image: linear-gradient(242deg, rgba(214,155,181,1) 0%, rgba(214,178,237,1) 26%, rgba(241,236,236,1) 46%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* learn_more */
+.learn_more {
+    width: 100%;
+    height: 50px;
+    background-color:#171321;
+}
+.learn_more_text p {
+    color: #fafafa;
+    font-family: Inter, "sans-serif";
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 23px;
+}
+.lmpa {
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.learn_more_text a {
+    color: #fafafa;
+    font-family: Inter, "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+}
+#pointed_arrow {
+    color: #fafafa; 
+    font-size: 15px; 
+    position: absolute;
+    right: -18px;
+    top: 20px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.lmpa:hover #pointed_arrow {
+    right: -25px
+}
+.star1 {
+    margin-right: 30px
+}
+.star2 {
+    margin-left: 40px
+}
+.learn_more_text {
+    width: 835px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar */
+.navbar {
+    width: 100%;
+    height: 85px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: -1px; 
+}
+.navbar_left {
+    width: fit-content;
+    height: 45px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_left_button {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_btn {
+    width: fit-content;
+    height: 45px;
+    border-style: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(116, 113, 122);
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+.navbar_btn > a {
+    color: rgb(116, 113, 122);
+    text-decoration: none;
+}
+.st1 {
+    color: #8468cb;
+    font-weight: 600;
+}
+.navbar_btn:hover a {
+    color: #171321;
+}
+.navbar_btn:hover {
+    color: #171321;
+    cursor: pointer;
+}
+.view_all_solutions {
+    color: #171321;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px
+}
+.solutions_content {
+    width: 875px;
+    height: 490px;
+    background-color: #fafafa;
+    border: 1px solid rgb(190, 190, 191);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 285px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.solutions_content_main {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.solutions_content_main1 {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.our_solutions_list > li, .by_company_size > li, .by_company_industry > li {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.our_solutions_list li a, .by_company_size_industry ul li a {
+    color: #171321;
+}
+.by_company_industry {
+    margin-top: 30px;
+}
+.another {
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e3ee;
+}
+.another1 {
+    height: 226px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.another2 {
+    height: 156.8px;
+    padding-left: 25px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.another1_logo, .another2_logo {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    color: #171321;
+    margin-bottom: 7px;
+}
+#clock {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+}
+#money {
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 19px;
+}
+#black {
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 5px;
+}
+#white1 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+#white2 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    bottom: 0;
+}
+.another_title_learnmore {
+    color: #171321;
+    font-weight: 600;
+}
+.another_text {
+    margin-top: 10px;
+    color: #171321;
+}
+.another1 > a, .another2 > a {
+    text-decoration: none;
+    color: #171321;
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+}
+.nhonlon {
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+#nhonlon1 {
+    transform: rotateZ(90deg);
+    top: 15px;
+    left: -40px;
+    opacity: 0;
+}
+.nhon {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#navbar_btn1:hover #nhonlon1 {
+    opacity: 100%;
+}
+.navbar_btn:hover .solutions_content {
+    display: flex;
+}
+.view_all_solutions:hover #nhon1 {
+    left: 20px;
+}
+.lm:hover #nhon2 {
+    left: 15px;
+}
+.GitLab_Ultimate:hover #nhon3 {
+    left: 15px;
+}
+.GitLab_Premium:hover #nhon4 {
+    left: 15px;
+}
+.another1:hover, .another2:hover {
+    background-color: #c3b1f0;
+}
+.navbar_right {
+    width: 300px;
+    height: 45px;
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_right_getfreetrial {
+    width: 140px;
+    height: 45px;
+    background-color: #171321;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #171321;
+}
+.navbar_right_getfreetrial:hover {
+    background-color: #fafafa;
+    color: #171321;
+    border: 1px solid #171321;
+}
+.navbar_right_signin {
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(116, 113, 122);
+}
+.navbar_right_signin:hover {
+    color: #171321;
+}
+#navbar_right_search {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
