@@ -6,14 +6,6 @@
     text-decoration: none;
     color: #171321;
 }
-body {
-    width: auto;
-    height: 2000px;
-    background: rgb(214,155,181);
-    background-image: linear-gradient(242deg, rgba(214,155,181,1) 0%, rgba(214,178,237,1) 26%, rgba(241,236,236,1) 46%);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 /* learn_more */
 .learn_more {
     width: 100%;
@@ -35,6 +27,7 @@ body {
     align-items: center;
     cursor: pointer;
     position: relative;
+    text-decoration: underline;
 }
 .learn_more_text a {
     color: #fafafa;
@@ -96,7 +89,7 @@ body {
 }
 .navbar_btn {
     width: fit-content;
-    height: 45px;
+    height: 85px;
     border-style: none;
     background-color: #ffffff;
     font-size: 16px;
@@ -105,7 +98,6 @@ body {
     display: flex;
     align-items: center;
     margin-left: 25px;
-    padding-bottom: 10px;
 }
 .navbar_btn > a {
     color: rgb(116, 113, 122);
@@ -136,7 +128,7 @@ body {
     border-radius: 5px;
     display: none;
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 285px;
     justify-content: space-between;
     align-items: center;
@@ -246,7 +238,7 @@ body {
 }
 #nhonlon1 {
     transform: rotateZ(90deg);
-    top: 15px;
+    top: 17px;
     left: -40px;
     opacity: 0;
 }
@@ -276,6 +268,158 @@ body {
 }
 .another1:hover, .another2:hover {
     background-color: #c3b1f0;
+}
+.resources_content {
+    width: 1000px;
+    height: 370px;
+    background-color: #fafafa;
+    border: 1px solid rgb(190, 190, 191);
+    position: absolute;
+    display: none;
+    justify-content: space-between;
+    top: 75px;
+    left: 470px;
+    border: 1px solid rgb(190, 190, 191);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.main {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main1 {
+    margin-top: 30px;
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+.main1 ul li {
+    margin-bottom: 20px;
+}
+
+.another3  {
+    background-color: #e6e3ee;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#dev {
+    font-size: 18px;
+}
+#take {
+    font-size: 18px;
+    font-weight: 600;
+}
+.another3 a p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.another3 a img {
+    width: 220px;
+    height: auto;
+    margin-bottom: 20px;
+}
+#another3_text {
+    margin-top: -10px; 
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#pointed_arrow1 {
+    font-size: 15px; 
+    position: relative;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.another3:hover {
+    background-color: #c3b1f0;
+}
+
+#take:hover #pointed_arrow1 {
+    left: 10px;
+}
+.main2 {
+    color: #171321;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -10px
+}
+.main2:hover #nhon5 {
+    left: 20px;
+}
+#nhonlon2 {
+    transform: rotateZ(90deg);
+    top: 17px;
+    left: -45px;
+    opacity: 0;
+}
+#navbar_btn2:hover #nhonlon2 {
+    opacity: 100%;
+}
+#navbar_btn2:hover .resources_content{
+    display: flex;
+}
+.company_content {
+    width: 220px;
+    height: 440px;
+    border: 1px solid rgb(190, 190, 191);
+    border-radius: 5px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 75px;
+    left: 510px;
+    display: none;
+}
+.company_content ul {
+    margin-top: 30px;
+}
+.company_content li {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+#nhonlon3 {
+    transform: rotateZ(90deg);
+    top: 17px;
+    left: -40px;
+    opacity: 0;
+}
+#navbar_btn3:hover #nhonlon3 {
+    opacity: 100%;
+}
+#navbar_btn3:hover .company_content {
+    display: flex;
+}
+.contact_content {
+    width: 220px;
+    height: 120px;
+    border: 1px solid rgb(190, 190, 191);
+    border-radius: 5px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 75px; 
+    left: 650px;
+    display: none;
+}
+.contact_content li {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.contact_content ul {
+    margin-top: 30px;
+}
+#nhonlon4 {
+    transform: rotateZ(90deg);
+    top: 17px;
+    left: -45px;
+    opacity: 0;
+}
+#navbar_btn4:hover #nhonlon4 {
+    opacity: 100%;
+}
+#navbar_btn4:hover .contact_content {
+    display: flex;
 }
 .navbar_right {
     width: 300px;
@@ -319,6 +463,12 @@ body {
 #navbar_right_search {
     margin-right: 30px;
     cursor: pointer;
+}
+/* mid */
+.mid {
+    width: auto;
+    height: 2000px;
+    background-image: linear-gradient(242deg, rgba(214,155,181,1) 0%, rgba(214,178,237,1) 26%, rgba(241,236,236,1) 46%);
 }
 
 
