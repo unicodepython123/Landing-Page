@@ -996,6 +996,11 @@
     }
     .content_2_nd2 {
         display: flex;
+        flex-direction: column;
+    }
+    .content_2_clip > img {
+        width: 300px;
+        margin-top: 15px;
     }
     .content_2_text > p {
         color: #fafafa;
@@ -2828,5 +2833,10 @@
     }
     .content_6_bottom {
         margin-top: 35px;
+    }
+    .content_2_clip > img {
+        width: 500px;
+        margin-top: 60px;
+        margin-left: 60px;
     }
 }  
