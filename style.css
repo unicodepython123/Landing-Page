@@ -479,6 +479,8 @@
         margin-right: 30px;
     }
     .mid_background {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto;
         background-image: linear-gradient(242deg, rgba(214,155,181,1) 0%, #d6b2ed 26%, #ffffff 46%);
@@ -552,7 +554,7 @@
     }
     .mid_box {
         display: block;
-        width: 460px;
+        width: 340px;
         height: 555.15px;
         margin-top: 70px;
         margin-right: 50px;
@@ -571,7 +573,7 @@
         text-decoration: underline;
     }
     .mid_box > img {
-        width: 410px;
+        width: 250px;
         height: auto;
         display: block; 
         margin: auto;
@@ -595,7 +597,7 @@
         font-weight: 600;
         margin-left: 25px;
         position: absolute;
-        top: 330px
+        top: 230px
     }
     .mid_box_url {
         font-size: 20px;
@@ -623,6 +625,7 @@
         margin-top: 20px;
     }
     .mid_text_1{
+        margin-top: 25px;
         font-size: 50px;
         font-weight: 600;
     }
@@ -802,6 +805,7 @@
     }
     .four_choices_text {
         color: #171321;
+        margin-bottom: 30px;
     }
     .four_choices_text p a {
         color: #8367c7;
